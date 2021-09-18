@@ -1,0 +1,14 @@
+{
+  "name": "test-api",
+  "version": "1.0.0",
+  "description": "REST API for testing",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch playlist.json --port 8888"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
